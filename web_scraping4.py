@@ -39,5 +39,5 @@ sorted_items = sorted(items_found.items(), key=lambda x: x[1]['price'])
 for item in sorted_items:
     print(item[0])
     print(f"${item[1]['price']}")
-    print(item[1]['link'])clea
+    print(item[1]['link'])
     print("<<<<<<==============>>>>>")
