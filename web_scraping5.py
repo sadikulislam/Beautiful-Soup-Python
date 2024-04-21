@@ -25,4 +25,4 @@ series1 = pd.Series(results, name='Names')
 series2 = pd.Series(other_results, name='Prices')
 
 df = pd.DataFrame({'Names': series1, 'Prices': series2})
-df.to_csv('products.csv', index=False, encoding='utf-8')
+df.to_excel('products.xlsx', index=False)
